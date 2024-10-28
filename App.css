@@ -2,43 +2,55 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%; 
+    height: 100%;
     background-color: #3D0301;
-    padding: 200px; 
+    padding: 200px;
 }
 
 .calculator {
-    flex-direction: column; 
+    flex-direction: column;
+    align-items: center;
 }
 
 input[type="text"] {
-    width: 175px;  
+    width: 175px;
     height: 42px;
 }
 
 input[type="button"] {
-    width: 50px;  
-    height: 50px; 
-    background-color: white; 
-    background-size: 30px 30px;
-    background-repeat: no-repeat;
-    background-position: center; 
+    width: 50px;
+    height: 50px;
+    background-color: white;
     margin: 5px;
-    font-size: 25px; 
+    font-size: 25px;
+    border: none; 
+    font-weight: bold;
 }
 
 .divis_button {
-    background: url(https://t3.ftcdn.net/jpg/09/27/58/02/360_F_927580219_IByr0GpmbTLBFkjg96EBP1VZeRWNTP4b.jpg);
+    background-image: url(https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/fallen-leaf.png);
+    background-size: cover; 
 }
 
 .multipl_button {
-    background: url(https://cdn-icons-png.flaticon.com/256/43/43165.png);
+    background-image: url(https://i.pinimg.com/736x/9f/e4/41/9fe44193eb2e806e541fca3e4eaddff4.jpg);
+    background-size: cover;
 }
 
 .addit_button {
-    background: url(https://cdn-icons-png.flaticon.com/512/32/32339.png);
+    background-image: url(https://i.pinimg.com/736x/63/d3/8d/63d38d8cbba4335a6d28b5e19f67be8d.jpg);
+    background-size: cover;
 }
 
 .subtract_button {
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYs2b8fTTyKqQF20o6UvHm6bw3MbvRflYJgQ&s);
+    background-image: url(https://ih1.redbubble.net/image.4717255553.1419/st,small,507x507-pad,600x600,f8f8f8.jpg);
+    background-size: cover;
+}
+
+p2 {
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px; 
+    text-align: center;
 }
